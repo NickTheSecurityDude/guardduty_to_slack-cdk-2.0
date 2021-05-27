@@ -18,5 +18,5 @@ dig GuardDutyC2ActivityB.com any
 ```
 6. Wait up to about an hour for your message to appear (this is the normal time GuardDuty takes to report a finding)
 
-If you need to create a webhook see:
+- If you need to create a webhook see:
 https://api.slack.com/messaging/webhooks
