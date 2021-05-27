@@ -1,5 +1,7 @@
 # Send GuardDuty Notices to Slack
 
+<img src="https://securitydude-article-images.s3.amazonaws.com/guardduty2slack/guardduty-slack-27a.png” width=“800">
+
 1. Clone this repo
 
 2. Create a channel called #guardduty
@@ -11,6 +13,7 @@
 cdk bootstrap aws://<ACCT_ID>/<REGION>
 cdk deploy --all --require-approval never
 ```
+<img src="https://securitydude-article-images.s3.amazonaws.com/guardduty2slack/gd2slk-27a-cli.png” width=“800">
 
 5. Spin up an EC2 instance and run the following command to generate a sample GuardDuty Alert:
 ```
